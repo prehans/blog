@@ -25,7 +25,7 @@ const Login = () => {
       if(data.success){
         dispatch(authActions.Login());
         alert("User Login successfully");
-        navigate("/");
+        navigate("/blogs");
       }
     } catch (error) {
       console.log(error);
